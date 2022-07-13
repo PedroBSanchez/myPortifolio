@@ -1,0 +1,16 @@
+.about-image {
+  width: 80%;
+  height: 100%;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 25px;
+}
+
+.about-text {
+  color: #eee;
+  text-align: justify;
+  font-size: 24px;
+  font-family: "Quicksand";
+  margin-right: 20px;
+  margin-left: 10px;
+}

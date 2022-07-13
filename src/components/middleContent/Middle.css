@@ -1,0 +1,30 @@
+.middle-container {
+  background-color: #222;
+}
+
+.about-container .contact-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text-teste {
+  color: blue;
+}
+
+.middle-card {
+  box-shadow: 0 4px 8px 0 rgba(238, 238, 238, 0.911);
+  border: 2px solid rgba(238, 238, 238, 0.911);
+  transition: 0.3s;
+  border-radius: 10px;
+  margin: 35px;
+}
+
+.middle-card-title {
+  font-family: "quicksand";
+  font-style: italic;
+  font-weight: 700;
+  color: rgb(235, 209, 209);
+  text-shadow: 0px 0px 10px white, 0px 0px 3px white;
+  font-size: 24px;
+}

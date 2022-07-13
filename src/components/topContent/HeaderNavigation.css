@@ -1,0 +1,32 @@
+.navigation-background {
+  background-color: rgba(39, 30, 30, 0.171);
+  text-align: center;
+  height: 60px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.navigation-button {
+  background-color: rgba(68, 68, 68, 0);
+  color: black;
+  font-family: "QuickSand";
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  margin: 15px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.navigation-button:hover {
+  color: white;
+  text-shadow: 0px 0px 10px white, 0px 0px 3px white;
+}
+
+.navigation-button:checked {
+  color: black;
+}

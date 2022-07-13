@@ -1,0 +1,16 @@
+.contact-card-container {
+  box-shadow: 0 4px 8px 0 rgba(238, 238, 238, 0.911);
+  border: 2px solid rgba(238, 238, 238, 0.911);
+  transition: 0.3s;
+  border-radius: 10px;
+  margin: 35px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+.cards-container {
+  padding: 10px;
+  margin-right: 40px;
+}
