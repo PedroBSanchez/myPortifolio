@@ -14,7 +14,7 @@ const Application = ({
   linkGithub,
   linkGithubSecond,
 }) => {
-  const [onMouseOver, setOnMouseOver] = useState("false");
+  const [onMouseOver, setOnMouseOver] = useState();
 
   return (
     <div
@@ -51,13 +51,14 @@ const Application = ({
 
         {onMouseOver && linkGithub && (
           <>
-            <div className="row">
+            <div className="row text-wrap">
               <div className="col-md-12">
                 <a
-                  className="application-text application-link"
+                  className="application-text application-link text-break"
                   href={linkGithub}
+                  target="_blank"
                 >
-                  {`Front-end: ${linkGithub}`}
+                  {`Repo: ${linkGithub}`}
                 </a>
                 <br />
               </div>
@@ -68,24 +69,29 @@ const Application = ({
           <div className="row">
             <div className="col-md-12">
               <a
-                className="application-text application-link"
+                className="application-text application-link text-break"
                 href={linkGithubSecond}
+                target="_blank"
               >
-                {`Back-end: ${linkGithubSecond}`}
+                {`Repo 2: ${linkGithubSecond}`}
               </a>
             </div>
           </div>
         )}
 
         {onMouseOver && linkAplicacao && (
-          <a className="application-text application-link" href={linkAplicacao}>
+          <a
+            className="application-text application-link text-break"
+            href={linkAplicacao}
+            target="_blank"
+          >
             Application: <br />
             {linkAplicacao}
             <hr className="hr-color" />
           </a>
         )}
       </div>
-      <div className="application-technologies">
+      <div className="application-technologies mt-3">
         {!onMouseOver && (
           <>
             {technologies.map((tech) => (

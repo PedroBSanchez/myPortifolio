@@ -2,6 +2,7 @@ import React from "react";
 
 import clock from "../../../assets/clockimage.png";
 import tasklist from "../../../assets/tasklist.png";
+import personRegister from "../../../assets/personRegister.png";
 
 import "./ApplicationImage.css";
 
@@ -15,6 +16,10 @@ const ApplicationImage = ({ applicationName }) => {
 
     case "tasklist":
       appImage = tasklist;
+      break;
+
+    case "personRegister":
+      appImage = personRegister;
       break;
 
     default:

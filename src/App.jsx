@@ -6,11 +6,15 @@ import "./App.css";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Header />
-      <Middle />
-      <Projects />
-    </>
+      <section id="about">
+        <Middle />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+    </div>
   );
 }
 

@@ -8,7 +8,7 @@ const HeaderNavigation = () => {
       <div className="navigation-background ">
         <div className="col sm-3">
           <li class="nav-item">
-            <a href="#about" className="navigation-button">
+            <a href="#about" className="navigation-button ">
               About
             </a>
           </li>
@@ -22,7 +22,7 @@ const HeaderNavigation = () => {
         </div>
         <div className="col sm-3">
           <li class="nav-item">
-            <a href="#projects" className="navigation-button">
+            <a href="#projects" className="navigation-button ">
               Projects
             </a>
           </li>
