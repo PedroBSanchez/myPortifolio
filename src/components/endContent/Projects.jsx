@@ -23,7 +23,6 @@ const Projects = () => {
                 "Project of a functional clock that has a greater focus on CSS and JavaScript."
               }
               linkGithub={"https://github.com/PedroBSanchez/clock"}
-              linkGithubSecond={"https://github.com/PedroBSanchez/clock"}
               linkAplicacao={"https://clinquant-chimera-9981c3.netlify.app/"}
             />
           </div>
