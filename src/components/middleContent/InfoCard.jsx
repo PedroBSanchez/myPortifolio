@@ -42,7 +42,7 @@ const InfoCard = ({ iconType, username, link }) => {
 
         {username == "contato.pedrosanchez@gmail.com" && (
           <h1 className="card-contact-text">
-            contato.pedrosanchez <br /> gmail.com
+            contato.pedrosanchez <br /> @gmail.com
           </h1>
         )}
       </div>

@@ -1,0 +1,20 @@
+.footer {
+  background-color: #222;
+}
+
+.footer-text {
+  font-family: "Quicksand";
+  font-size: 22px;
+  color: #eee;
+}
+
+.footer-button {
+  background-color: rgba(34, 34, 34, 0);
+  border: none;
+  color: rgb(177, 135, 85);
+}
+
+.footer-button:hover {
+  background-color: #444;
+  border-radius: 15px;
+}
