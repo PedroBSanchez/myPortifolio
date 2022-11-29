@@ -1,9 +1,8 @@
 .about-image {
-  width: 80%;
+  width: 40%;
   height: 100%;
   border-radius: 25px;
   padding: 10px;
-  margin-left: 25px;
 }
 
 .about-text {
@@ -13,4 +12,11 @@
   font-family: "Quicksand";
   margin-right: 20px;
   margin-left: 10px;
+}
+
+.card-border-about {
+  box-shadow: 0 4px 8px 0 rgba(238, 238, 238, 0.911);
+  border: 2px solid rgba(238, 238, 238, 0.911);
+  transition: 0.3s;
+  border-radius: 10px;
 }

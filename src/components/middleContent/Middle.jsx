@@ -7,12 +7,14 @@ import "./Middle.css";
 
 const Middle = () => {
   return (
-    <div className="row middle-container">
-      <div className="col-md-6 about-container">
-        <About />
-      </div>
-      <div className="col-md-6 contact-container">
-        <Contact />
+    <div>
+      <div className="middle-about-container row">
+        <div className="row text-center mt-3">
+          <h2 className="middle-card-title">About</h2>
+        </div>
+        <div className="row">
+          <About />
+        </div>
       </div>
     </div>
   );
