@@ -1,5 +1,5 @@
 .about-image {
-  width: 40%;
+  width: 70%;
   height: 100%;
   border-radius: 25px;
   padding: 10px;
@@ -8,10 +8,22 @@
 .about-text {
   color: #eee;
   text-align: justify;
-  font-size: 24px;
   font-family: "Quicksand";
-  margin-right: 20px;
-  margin-left: 10px;
+}
+
+.line {
+  color: #eee;
+  box-shadow: 0 4px 8px 0 rgba(238, 238, 238, 0.911);
+}
+
+.text-objective {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.text-personal {
+  font-size: 22px;
+  text-align: left;
 }
 
 .card-border-about {
@@ -19,4 +31,5 @@
   border: 2px solid rgba(238, 238, 238, 0.911);
   transition: 0.3s;
   border-radius: 10px;
+  height: 110%;
 }

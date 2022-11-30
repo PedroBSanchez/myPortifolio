@@ -4,6 +4,7 @@ import Projects from "./components/endContent/Projects";
 import Footer from "./components/endContent/Footer";
 
 import "./App.css";
+import Skills from "./components/skillsContent/Skills";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <section id="about">
         <Middle />
+        <Skills />
         <Footer />
       </section>
       <section id="projects">
