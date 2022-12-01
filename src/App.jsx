@@ -12,9 +12,12 @@ function App() {
       <Header />
       <section id="about">
         <Middle />
+      </section>
+      <section id="skills">
         <Skills />
         <Footer />
       </section>
+      <section id="experience"></section>
       <section id="projects">
         <Projects />
       </section>

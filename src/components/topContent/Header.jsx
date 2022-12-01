@@ -13,7 +13,7 @@ const Header = () => {
           </div>
           <div className="row justify-content-center">
             <div className="header-text-container">
-              <h1 className="header-text">Welcome to my portifolio</h1>
+              <h1 className="header-text">Welcome</h1>
             </div>
           </div>
         </div>
