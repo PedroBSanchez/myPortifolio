@@ -13,8 +13,8 @@ const Experience = () => {
           </h1>
         </div>
       </div>
-      <div className="row justify-content-center">
-        <div className="col-md-12">
+      <div className="row mt-2 text-center justify-content-center">
+        <div className="col-md-4">
           <CarrouselExperience />
         </div>
       </div>

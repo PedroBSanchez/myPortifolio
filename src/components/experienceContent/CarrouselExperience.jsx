@@ -1,9 +1,10 @@
 import React from "react";
 
 import "./CarrouselExperience.css";
+import ExperienceCard from "./ExperienceCard";
 
 const CarrouselExperience = () => {
-  return <div>CarrouselExperience</div>;
+  return <ExperienceCard />;
 };
 
 export default CarrouselExperience;
