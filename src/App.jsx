@@ -21,7 +21,6 @@ function App() {
         <Experience />
         <Footer />
       </section>
-      <section id="experience"></section>
       <section id="projects">
         <Projects />
       </section>

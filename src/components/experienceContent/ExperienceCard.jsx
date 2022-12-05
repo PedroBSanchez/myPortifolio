@@ -1,32 +1,32 @@
 import React from "react";
 
 import "./ExperienceCard.css";
-const ExperienceCard = () => {
+const ExperienceCard = ({ image, atividades, empresa, periodo }) => {
   // os props serão src da image, map de funções na empresa e período
 
   return (
     <div className="card-border-experience p-3">
-      <div className="row text-center experience-image-func-row">
-        <div className="col-md-6">
-          <img
-            className="experience-image"
-            src="https://picsum.photos/seed/picsum/200"
-          />
-          <p className="text">Nome Empresa</p>
+      <div className="row text-center ">
+        <div className="col-md-6 ">
+          <img className="experience-image" src={image} />
+          <p className="text">{empresa}</p>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6 justify-content-center">
           <ul>
-            <li className="text">Software Developer</li>
-            <li className="text">Software Engenireeing</li>
-            <li className="text">Software Engenireeing</li>
-            <li className="text">Software Engenireeing</li>
+            {atividades.map((element) => {
+              return (
+                <div className="row text-left">
+                  <li className="text text-functions">{element}</li>
+                </div>
+              );
+            })}
           </ul>
         </div>
       </div>
       <hr className="line" />
       <div className="row justify-content-center">
         <div className="col-md-4">
-          <p className="text mb-2">2018-2022</p>
+          <p className="text mb-2">{periodo}</p>
         </div>
       </div>
     </div>

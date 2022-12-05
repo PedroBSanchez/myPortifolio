@@ -1,5 +1,10 @@
 .text {
   color: white;
+  font-family: "Quicksand";
+}
+
+.text-functions {
+  text-align: left;
 }
 
 .card-border-experience {
@@ -9,13 +14,9 @@
   border-radius: 10px;
 }
 
-.experience-image-func-row {
-  height: 90%;
-}
-
 .experience-image {
   border-radius: 15px;
-  height: 85%;
+  height: 75%;
   width: 85%;
 }
 
