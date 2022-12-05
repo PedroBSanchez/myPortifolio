@@ -14,7 +14,7 @@ const Experience = () => {
         </div>
       </div>
       <div className="row mt-2 text-center justify-content-center">
-        <div className="col-md-4">
+        <div className="col-md-8">
           <CarrouselExperience />
         </div>
       </div>
