@@ -17,16 +17,17 @@ const About = () => {
               <div className="row m-4">
                 <ul>
                   <li className="about-text text-personal">
-                    Software Developer
+                    Pedro Bernardo Sanchez
                   </li>
+                  <li className="about-text text-personal mt-2">
+                    21 Years old
+                  </li>
+                  <li className="about-text text-personal mt-2">Brazilian</li>
                   <li className="about-text text-personal mt-2">
                     Software Engenireeing
                   </li>
                   <li className="about-text text-personal mt-2">
-                    Software Engenireeing
-                  </li>
-                  <li className="about-text text-personal mt-2">
-                    Software Engenireeing
+                    FullStack Developer
                   </li>
                 </ul>
               </div>
@@ -45,11 +46,16 @@ const About = () => {
                 </li>
                 <hr className="line" />
                 <li className="about-text text-objective">
-                  Technology lover and eager to learn more and more to create
-                  systems to make our lives easier.
+                  I am fascinated with making work easier using technology, I
+                  love automating routines.
                 </li>
               </ul>
             </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-md-4"></div>
+            <div className="col-md-4"></div>
+            <div className="col-md-4"></div>
           </div>
         </div>
       </div>

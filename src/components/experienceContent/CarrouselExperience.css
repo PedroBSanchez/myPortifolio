@@ -21,7 +21,7 @@ rec-dot_active {
   background-color: rgb(177, 135, 85) !important;
 }
 .rec.rec-arrow {
-  border-radius: 0;
+  border-radius: 15%;
 }
 
 .rec-arrow:hover {
