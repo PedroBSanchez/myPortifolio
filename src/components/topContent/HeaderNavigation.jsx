@@ -15,8 +15,15 @@ const HeaderNavigation = () => {
         </div>
         <div className="col sm-3">
           <li class="nav-item">
-            <a href="#about" className="navigation-button">
-              Contact
+            <a href="#skills" className="navigation-button">
+              Skills
+            </a>
+          </li>
+        </div>
+        <div className="col sm-3">
+          <li class="nav-item">
+            <a href="#experience" className="navigation-button">
+              Experience
             </a>
           </li>
         </div>
