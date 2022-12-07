@@ -1,0 +1,26 @@
+.text {
+  color: white;
+  font-family: "Quicksand";
+}
+
+.text-functions {
+  text-align: left;
+}
+
+.card-border-experience {
+  box-shadow: 0 4px 8px 0 rgba(238, 238, 238, 0.911);
+  border: 2px solid rgba(238, 238, 238, 0.911);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.experience-image {
+  border-radius: 15px;
+  height: 250px;
+  width: 250px;
+}
+
+.line {
+  color: #eee;
+  box-shadow: 0 4px 8px 0 rgba(238, 238, 238, 0.911);
+}

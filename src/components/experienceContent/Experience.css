@@ -1,0 +1,14 @@
+.experience-container {
+  background-color: #222;
+}
+
+.experience-text {
+  color: white;
+  font-family: "Quicksand";
+}
+
+.experience-text-title {
+  font-size: 22px;
+  color: rgb(235, 209, 209);
+  text-shadow: 0px 0px 10px white, 0px 0px 3px white;
+}
