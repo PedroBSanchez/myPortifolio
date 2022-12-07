@@ -28,20 +28,20 @@ const InfoCard = ({ iconType, username, link }) => {
 
   return (
     <Tilt className="card-contact-card" options={options} onClick={handleClick}>
-      <div className="mb-5">
-        {iconType === "github" && <BsGithub size={60} onClick={handleClick} />}
+      <div className="mt-3 p-2">
+        {iconType === "github" && <BsGithub size={45} onClick={handleClick} />}
         {iconType === "linkedin" && (
-          <BsLinkedin size={60} onClick={handleClick} />
+          <BsLinkedin size={45} onClick={handleClick} />
         )}
         {iconType === "email" && (
-          <BsFillEnvelopeFill size={60} onClick={handleClick} />
+          <BsFillEnvelopeFill size={45} onClick={handleClick} />
         )}
         {username !== "contato.pedrosanchez@gmail.com" && (
           <h1 className="card-contact-text">{username}</h1>
         )}
 
         {username == "contato.pedrosanchez@gmail.com" && (
-          <h1 className="card-contact-text">
+          <h1 className="card-contact-text card-contact-email-text">
             contato.pedrosanchez <br /> @gmail.com
           </h1>
         )}

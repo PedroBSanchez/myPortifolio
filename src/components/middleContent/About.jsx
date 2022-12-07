@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../assets/me2.jpg";
+import InfoCard from "./InfoCard";
 
 import "./About.css";
 import "../../App.css";
@@ -52,10 +53,28 @@ const About = () => {
               </ul>
             </div>
           </div>
-          <div className="row justify-content-center">
-            <div className="col-md-4"></div>
-            <div className="col-md-4"></div>
-            <div className="col-md-4"></div>
+
+          <div className="row text-center justify-content-center align-items-center">
+            <div className="col-md-3">
+              <InfoCard
+                iconType={"github"}
+                username={"/PedroBSanchez"}
+                link={"https://github.com/PedroBSanchez"}
+              />
+            </div>
+            <div className="col-md-3">
+              <InfoCard
+                iconType={"linkedin"}
+                username={"/pedro-sanchez"}
+                link={"https://www.linkedin.com/in/pedro-sanchez-b884831b2/"}
+              />
+            </div>
+            <div className="col-md-3">
+              <InfoCard
+                iconType={"email"}
+                username={"contato.pedrosanchez@gmail.com"}
+              />
+            </div>
           </div>
         </div>
       </div>
