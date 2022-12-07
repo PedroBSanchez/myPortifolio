@@ -1,19 +1,22 @@
 .card-contact-card {
   box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: #222;
   color: #eee;
   text-align: center;
   align-items: center;
   justify-content: center;
-  display: flex;
   cursor: pointer;
-  width: 180px;
-  height: 315px;
+  width: 80%;
+  height: 100px;
 }
 
 .card-contact-text {
   font-family: "Quicksand";
   font-weight: 700;
   font-size: 16px;
+}
+
+.card-contact-email-text {
+  font-size: 12px;
 }
