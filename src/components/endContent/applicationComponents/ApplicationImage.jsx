@@ -3,6 +3,7 @@ import React from "react";
 import clock from "../../../assets/clockimage.png";
 import tasklist from "../../../assets/tasklist.png";
 import personRegister from "../../../assets/personRegister.png";
+import qrcodeImage from "../../../assets/qrcode.png";
 
 import "./ApplicationImage.css";
 
@@ -20,6 +21,10 @@ const ApplicationImage = ({ applicationName }) => {
 
     case "personRegister":
       appImage = personRegister;
+      break;
+
+    case "qrcode":
+      appImage = qrcodeImage;
       break;
 
     default:

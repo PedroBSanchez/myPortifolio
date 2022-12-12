@@ -16,7 +16,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="row mt-4 ">
+      <div className="row mt-4 p-3">
         <div className="col-md-3 offset-md-1 col-sm-6">
           <Application
             application={"clock"}
@@ -50,6 +50,18 @@ const Projects = () => {
             description={"Project of a person register system"}
             linkGithub={"https://github.com/PedroBSanchez/cadastroPessoa"}
             linkAplicacao={"https://precious-donut-96b36b.netlify.app/"}
+          />
+        </div>
+      </div>
+      <div className="row mt-2 p-3">
+        <div className="col-md-3 offset-md-1 col-sm-6 ">
+          <Application
+            application={"qrcode"}
+            title={"QRCode Gen/Scan"}
+            technologies={["react"]}
+            description={"Project to implemenest a qrcode reader and generator"}
+            linkGithub={"https://github.com/PedroBSanchez/qrcode"}
+            linkAplicacao={"https://luminous-horse-2abde6.netlify.app/"}
           />
         </div>
       </div>
