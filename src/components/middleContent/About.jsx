@@ -25,7 +25,7 @@ const About = () => {
                   </li>
                   <li className="about-text text-personal mt-2">Brazilian</li>
                   <li className="about-text text-personal mt-2">
-                    Software Engenireeing
+                    Software Engineer
                   </li>
                   <li className="about-text text-personal mt-2">
                     FullStack Developer
