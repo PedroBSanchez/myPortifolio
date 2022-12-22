@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;403&display=swap");
 
-html {
-  scroll-behavior: smooth;
-}
-
 .card-border {
   box-shadow: 0 4px 8px 0 rgba(238, 238, 238, 0.911);
   border: 2px solid rgba(238, 238, 238, 0.911);
