@@ -1,5 +1,6 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
+import { BsGithub } from "react-icons/bs";
 
 import ApplicationIcon from "./applicationComponents/ApplicationIcon";
 import ApplicationImage from "./applicationComponents/ApplicationImage";
@@ -49,6 +50,8 @@ const NewProject = ({
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  console.log(repositories);
+
   return (
     <>
       <div className="project-card p-2" onClick={handleShow}>
@@ -62,10 +65,48 @@ const NewProject = ({
 
       <Modal show={show} onHide={handleClose} centered animation={true}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title className="application-text">{projectName}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-        <Modal.Footer></Modal.Footer>
+        <Modal.Body className="application-text">
+          <div className="row">
+            <p>{description}</p>
+          </div>
+          <div className="row justify-content-around">
+            <div className="col-5">
+              <ApplicationIcon technology={"html"} iconSize={35} />
+              <ApplicationIcon technology={"css"} iconSize={35} />
+              <ApplicationIcon technology={"javascript"} iconSize={35} />
+              <ApplicationIcon technology={"javascript"} iconSize={35} />
+            </div>
+            <div className="col-4">
+              <div className="row justify-content-evenly">
+                {repositories.map((repo) => {
+                  console.log(repo.type);
+                  return (
+                    <div className="col-1">
+                      <button class="btn btn-warning btn-sm">
+                        <BsGithub />
+                        <span className="badge badge-light modal-repo modal-span">
+                          {repo?.type}
+                        </span>
+                      </button>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+            <div className="col-2">
+              <div className="row">
+                <button class="btn btn-success btn-sm">
+                  <BsGithub />
+                  <span className="badge badge-light modal-span">
+                    Application
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </Modal.Body>
       </Modal>
     </>
   );

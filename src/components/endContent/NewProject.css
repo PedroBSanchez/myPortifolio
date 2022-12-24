@@ -37,3 +37,12 @@
 .modal-content {
   background-color: #222;
 }
+
+.modal-repo {
+  color: #222;
+}
+
+.modal-span {
+  font-family: "Quicksand";
+  font-weight: 900;
+}

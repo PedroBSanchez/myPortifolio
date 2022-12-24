@@ -16,24 +16,54 @@ const Projects = () => {
       </div>
       <div className="row justify-content-evenly">
         <div className="col-lg-2 col-md-4 m-3">
-          <NewProject projectName={"Clock"} image={"clock"} />
+          <NewProject
+            projectName={"Clock"}
+            image={"clock"}
+            description={"Project to implements a simple and functional clock"}
+            repositories={[
+              { repo: "123", type: "Front" },
+              { repo: "321", type: "Front" },
+            ]}
+          />
         </div>
         <div className="col-lg-2 col-md-4 m-3">
-          <NewProject projectName={"Tasklist"} image={"tasklist"} />
+          <NewProject
+            projectName={"Tasklist"}
+            image={"tasklist"}
+            repositories={[{ repo: "123" }, { repo: "321", type: "Front" }]}
+          />
         </div>
         <div className="col-lg-2 col-md-4 m-3">
           <NewProject
             projectName={"Person register"}
             image={"personRegister"}
+            repositories={[
+              { repo: "123", type: "Front" },
+              { repo: "321", type: "back" },
+            ]}
           />
         </div>
       </div>
       <div className="row justify-content-evenly">
         <div className="col-lg-2 col-md-4 m-3">
-          <NewProject projectName={"QRCode"} image={"qrcode"} />
+          <NewProject
+            projectName={"QRCode"}
+            image={"qrcode"}
+            repositories={[
+              { repo: "123", type: "Front" },
+              { repo: "321", type: "Front" },
+            ]}
+          />
         </div>
         <div className="col-lg-2 col-md-4 m-3">
-          <NewProject projectName={"Stock Quoter"} image={"stockQuoter"} />
+          <NewProject
+            projectName={"Stock Quoter"}
+            image={"stockQuoter"}
+            repositories={[
+              { repo: "123", type: "Front" },
+              { repo: "321", type: "Front" },
+            ]}
+          />
         </div>
       </div>
     </div>
