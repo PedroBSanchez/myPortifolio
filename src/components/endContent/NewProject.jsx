@@ -50,7 +50,9 @@ const NewProject = ({
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  console.log(repositories);
+  const openPage = (pageLink) => {
+    if (pageLink) window.open(pageLink, "_blank");
+  };
 
   return (
     <>
@@ -71,20 +73,22 @@ const NewProject = ({
           <div className="row">
             <p>{description}</p>
           </div>
+          <hr />
           <div className="row justify-content-around">
             <div className="col-5">
-              <ApplicationIcon technology={"html"} iconSize={35} />
-              <ApplicationIcon technology={"css"} iconSize={35} />
-              <ApplicationIcon technology={"javascript"} iconSize={35} />
-              <ApplicationIcon technology={"javascript"} iconSize={35} />
+              {icons.map((element) => (
+                <ApplicationIcon technology={element} iconSize={35} />
+              ))}
             </div>
             <div className="col-4">
               <div className="row justify-content-evenly">
                 {repositories.map((repo) => {
-                  console.log(repo.type);
                   return (
                     <div className="col-1">
-                      <button class="btn btn-warning btn-sm">
+                      <button
+                        class="btn btn-warning btn-sm"
+                        onClick={() => openPage(repo?.repo)}
+                      >
                         <BsGithub />
                         <span className="badge badge-light modal-repo modal-span">
                           {repo?.type}
@@ -97,7 +101,12 @@ const NewProject = ({
             </div>
             <div className="col-2">
               <div className="row">
-                <button class="btn btn-success btn-sm">
+                <button
+                  class="btn btn-success btn-sm"
+                  onClick={() => {
+                    openPage(applicationLink);
+                  }}
+                >
                   <BsGithub />
                   <span className="badge badge-light modal-span">
                     Application
