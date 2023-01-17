@@ -10,6 +10,10 @@ import {
   DiJavascript,
 } from "react-icons/di";
 
+import { BsDiscord } from "react-icons/bs";
+
+import { SiConstruct3 } from "react-icons/si";
+
 import "./ApplicationIcon.css";
 
 const ApplicationIcon = ({ technology, iconSize }) => {
@@ -26,6 +30,12 @@ const ApplicationIcon = ({ technology, iconSize }) => {
       )}
       {technology === "mongodb" && (
         <DiMongodb size={iconSize} className="icon" />
+      )}
+      {technology === "discord" && (
+        <BsDiscord size={iconSize} className="icon" />
+      )}
+      {technology === "construct" && (
+        <SiConstruct3 size={iconSize} className="icon" />
       )}
     </>
   );

@@ -17,6 +17,21 @@ const Projects = () => {
       <div className="row justify-content-evenly">
         <div className="col-lg-2 col-md-4 m-3">
           <NewProject
+            projectName={"Catacombs"}
+            image={"catacombs"}
+            description={"2D Endless Game made with Construct2"}
+            repositories={[
+              {
+                repo: "https://upbeat-kalam-5f930c.netlify.app/",
+                type: "Front",
+              },
+            ]}
+            applicationLink={"https://upbeat-kalam-5f930c.netlify.app/"}
+            icons={["construct"]}
+          />
+        </div>
+        <div className="col-lg-2 col-md-4 m-3">
+          <NewProject
             projectName={"Clock"}
             image={"clock"}
             description={"Project to implements a simple and functional clock"}
@@ -85,7 +100,7 @@ const Projects = () => {
         <div className="col-lg-2 col-md-4 m-3">
           <NewProject
             projectName={"Stock Quoter"}
-            image={"stockQuoter"}
+            image={"stockquoter"}
             description={
               "Project to implement a stock price viewer with user authentication and option to save favorite stocks"
             }
@@ -94,8 +109,31 @@ const Projects = () => {
                 repo: "https://github.com/PedroBSanchez/stockQuoter",
                 type: "Back",
               },
+              {
+                repo: "https://github.com/PedroBSanchez/stockquoterui",
+                type: "Front",
+              },
             ]}
             icons={["nodejs", "mongodb", "react"]}
+          />
+        </div>
+        <div className="col-lg-2 col-md-4 m-3">
+          <NewProject
+            projectName={"Discord Bot"}
+            image={"discord"}
+            description={
+              "Project to implements a multifunctional discord bot with commands like currency value, stock value, even or odd, rock paper scissors and others"
+            }
+            repositories={[
+              {
+                repo: "https://github.com/PedroBSanchez/mafiaboybot",
+                type: "Back",
+              },
+            ]}
+            applicationLink={
+              "https://discord.com/oauth2/authorize?=&client_id=1062868174359511112&scope=bot&permissions=8"
+            }
+            icons={["nodejs", "discord"]}
           />
         </div>
       </div>

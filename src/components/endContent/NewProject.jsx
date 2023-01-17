@@ -10,6 +10,9 @@ import personRegister from "../../assets/personRegister.png";
 import qrcodeImage from "../../assets/qrcode.png";
 import clock from "../../assets/clockimage.png";
 import progess from "../../assets/progress.png";
+import discord from "../../assets/discord.png";
+import stockquoter from "../../assets/stockquoter.png";
+import catacombs from "../../assets/catacombs.png";
 
 import "./NewProject.css";
 import { useState } from "react";
@@ -39,6 +42,18 @@ const NewProject = ({
 
     case "qrcode":
       appImage = qrcodeImage;
+      break;
+
+    case "discord":
+      appImage = discord;
+      break;
+
+    case "stockquoter":
+      appImage = stockquoter;
+      break;
+
+    case "catacombs":
+      appImage = catacombs;
       break;
 
     default:
