@@ -29,7 +29,7 @@ const About = () => {
                   </li>
                   <li className="about-text text-personal mt-2">Brazilian</li>
                   <li className="about-text text-personal mt-2">
-                    Software Engineer
+                    Bachelors in Software Engineering
                   </li>
                   <li className="about-text text-personal mt-2">
                     FullStack Developer
@@ -86,8 +86,9 @@ const About = () => {
             <div className="col-md-12 text-center p-4">
               <ul>
                 <li className="about-text text-objective">
-                  Technology lover and eager to learn more and more to create
-                  systems to make our lives easier.
+                  I've been studying technology since I was 15 years old and I'm
+                  passionate about the subject. I want to learn more and more to
+                  create systems that make our lives easier
                 </li>
                 <hr className="line" />
                 <li className="about-text text-objective">
@@ -95,29 +96,6 @@ const About = () => {
                   love automating routines.
                 </li>
               </ul>
-            </div>
-          </div>
-
-          <div className="row text-center justify-content-center align-items-center">
-            <div className="col-md-3">
-              <InfoCard
-                iconType={"github"}
-                username={"/PedroBSanchez"}
-                link={"https://github.com/PedroBSanchez"}
-              />
-            </div>
-            <div className="col-md-3">
-              <InfoCard
-                iconType={"linkedin"}
-                username={"/pedro-sanchez"}
-                link={"https://www.linkedin.com/in/pedro-sanchez-b884831b2/"}
-              />
-            </div>
-            <div className="col-md-3">
-              <InfoCard
-                iconType={"email"}
-                username={"contato.pedrosanchez@gmail.com"}
-              />
             </div>
           </div>
         </div>
