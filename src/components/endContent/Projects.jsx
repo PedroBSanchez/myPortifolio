@@ -1,6 +1,7 @@
 import React from "react";
 
 import NewProject from "./NewProject";
+import NewProjectCard from "./NewProjectCard";
 
 import "./Projects.css";
 
@@ -16,7 +17,7 @@ const Projects = () => {
       </div>
       <div className="row justify-content-evenly">
         <div className="col-lg-2 col-md-4 m-3">
-          <NewProject
+          <NewProjectCard
             projectName={"Catacombs"}
             image={"catacombs"}
             description={"2D Endless Game made with Construct2"}
@@ -31,7 +32,7 @@ const Projects = () => {
           />
         </div>
         <div className="col-lg-2 col-md-4 m-3">
-          <NewProject
+          <NewProjectCard
             projectName={"Clock"}
             image={"clock"}
             description={"Project to implements a simple and functional clock"}
@@ -43,7 +44,7 @@ const Projects = () => {
           />
         </div>
         <div className="col-lg-2 col-md-4 m-3">
-          <NewProject
+          <NewProjectCard
             projectName={"Tasklist"}
             image={"tasklist"}
             description={
@@ -64,7 +65,7 @@ const Projects = () => {
           />
         </div>
         <div className="col-lg-2 col-md-4 m-3">
-          <NewProject
+          <NewProjectCard
             projectName={"Person register"}
             description={
               "Project to implement a register of people with name, CPF and date of birth - CRUD with data persistence"
@@ -83,7 +84,7 @@ const Projects = () => {
       </div>
       <div className="row justify-content-evenly">
         <div className="col-lg-2 col-md-4 m-3">
-          <NewProject
+          <NewProjectCard
             projectName={"QRCode"}
             image={"qrcode"}
             description={"Project to implement a qrcode scanner and generator"}
@@ -98,7 +99,7 @@ const Projects = () => {
           />
         </div>
         <div className="col-lg-2 col-md-4 m-3">
-          <NewProject
+          <NewProjectCard
             projectName={"Stock Quoter"}
             image={"stockquoter"}
             description={
@@ -118,11 +119,11 @@ const Projects = () => {
           />
         </div>
         <div className="col-lg-2 col-md-4 m-3">
-          <NewProject
+          <NewProjectCard
             projectName={"Discord Bot"}
             image={"discord"}
             description={
-              "Project to implements a multifunctional discord bot with commands like currency value, stock value, even or odd, rock paper scissors and others"
+              "Project to implements a multifunctional discord bot with commands like currency value, stock value and others"
             }
             repositories={[
               {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import { BsGithub } from "react-icons/bs";
 
@@ -14,10 +14,9 @@ import discord from "../../assets/discord.png";
 import stockquoter from "../../assets/stockquoter.png";
 import catacombs from "../../assets/catacombs.png";
 
-import "./NewProject.css";
-import { useState } from "react";
+import "./NewProjectCard.css";
 
-const NewProject = ({
+const NewProjectCard = ({
   projectName,
   description,
   icons,
@@ -25,62 +24,38 @@ const NewProject = ({
   applicationLink,
   image,
 }) => {
-  //Definir imagem do projeto
-  let appImage;
-  switch (image) {
-    case "clock":
-      appImage = clock;
-      break;
-
-    case "tasklist":
-      appImage = tasklist;
-      break;
-
-    case "personRegister":
-      appImage = personRegister;
-      break;
-
-    case "qrcode":
-      appImage = qrcodeImage;
-      break;
-
-    case "discord":
-      appImage = discord;
-      break;
-
-    case "stockquoter":
-      appImage = stockquoter;
-      break;
-
-    case "catacombs":
-      appImage = catacombs;
-      break;
-
-    default:
-      appImage = progess;
-      break;
-  }
-
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
   const openPage = (pageLink) => {
     if (pageLink) window.open(pageLink, "_blank");
   };
-
   return (
     <>
-      <div className="project-card p-2" onClick={handleShow}>
-        <img className="application-image-img" src={appImage} alt={"Project"} />
-        <div className="row mt-2 text-center">
-          <p className="application-text application-text-title">
-            {projectName}
-          </p>
+      <div className="card" onClick={handleShow}>
+        <div className="align">
+          <span className="red"></span>
+          <span className="yellow"></span>
+          <span className="green"></span>
+        </div>
+
+        <h4 className="text-center">{projectName}</h4>
+        <br />
+        <p
+          className="text-center"
+          style={{
+            fontFamily: "Quicksand",
+            fontSize: "14px",
+          }}
+        >
+          {description}
+        </p>
+        <div className="row text-center justify-content-center">
+          <div class="loader"></div>
         </div>
       </div>
 
-      <Modal show={show} onHide={handleClose} centered animatio={true}>
+      <Modal show={show} onHide={handleClose} centered animation={true}>
         <Modal.Header closeButton>
           <Modal.Title className="application-text">{projectName}</Modal.Title>
         </Modal.Header>
@@ -136,4 +111,4 @@ const NewProject = ({
   );
 };
 
-export default NewProject;
+export default NewProjectCard;
