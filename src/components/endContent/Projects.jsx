@@ -137,6 +137,25 @@ const Projects = () => {
             icons={["nodejs", "discord"]}
           />
         </div>
+        <div className="col-lg-2 col-md-4 m-3">
+          <NewProjectCard
+            projectName={"Recipe Generator"}
+            image={"discord"}
+            description={
+              "Project to implements recipe generator to cook any food"
+            }
+            repositories={[
+              {
+                repo: "https://github.com/PedroBSanchez/recipegenerator",
+                type: "Repo",
+              },
+            ]}
+            applicationLink={
+              "https://pedrobsanchez-recipegenerator.netlify.app/"
+            }
+            icons={["react"]}
+          />
+        </div>
       </div>
     </div>
   );
