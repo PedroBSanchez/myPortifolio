@@ -1,0 +1,45 @@
+.border-neon {
+  box-shadow: 0 4px 8px 0 rgba(238, 238, 238, 0.911);
+  border: 2px solid rgba(238, 238, 238, 0.911);
+  border-radius: 7px;
+}
+
+.button-linkedin {
+  background-color: #0e76a8;
+  padding: 5px;
+  border-radius: 7px;
+  border-color: #0e76a8;
+  transition: 1s;
+}
+
+.button-linkedin:hover {
+  background-color: #0e77a848;
+  border-color: #0e77a848;
+  transition: 1s;
+}
+
+.button-github {
+  background-color: #333;
+  padding: 5px;
+  border-radius: 7px;
+  border-color: #333;
+}
+
+.button-github:hover {
+  background-color: rgba(134, 134, 134, 0.973);
+  border-color: rgba(134, 134, 134, 0.973);
+  transition: 1s;
+}
+
+.button-email {
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 7px;
+  border-color: #ffffff;
+}
+
+.button-email:hover {
+  background-color: #535353;
+  border-color: #535353;
+  transition: 1s;
+}

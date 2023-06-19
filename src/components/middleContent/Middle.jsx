@@ -4,6 +4,7 @@ import About from "./About";
 import Contact from "./Contact";
 
 import "./Middle.css";
+import NewAbout from "./NewAbout";
 
 const Middle = () => {
   return (
@@ -12,9 +13,9 @@ const Middle = () => {
         <div className="row text-center mt-3">
           <h2 className="middle-card-title">About</h2>
         </div>
-        <div className="row mb-2">
-          <About />
-        </div>
+      </div>
+      <div className="middle-about-container p-3">
+        <NewAbout />
       </div>
     </div>
   );
