@@ -10,3 +10,9 @@
 .app {
   height: 5000px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}

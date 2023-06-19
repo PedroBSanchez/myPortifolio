@@ -1,22 +1,24 @@
 .skills-container {
-  background-color: white;
+  background: url("../../assets/codes.jpg") repeat fixed 30%;
   box-shadow: inset 0 0 2em #222;
 }
 
 .skills-text {
   font-family: "Quicksand";
-  color: #222;
+  color: white;
 }
 
 .skills-text-title {
   font-size: 22px;
   font-style: italic;
   font-weight: 700;
+  color: rgb(235, 209, 209);
+  text-shadow: 0px 0px 10px white, 0px 0px 3px white;
 }
 
 .card-border-skills {
   box-shadow: 0 4px 8px 0 rgba(238, 238, 238, 0.911);
-  border: 2px solid #222;
+  border: 2px solid white;
   transition: 0.3s;
   border-radius: 10px;
   height: 100%;

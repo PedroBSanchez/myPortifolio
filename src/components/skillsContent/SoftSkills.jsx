@@ -15,41 +15,41 @@ const SoftSkills = () => {
     <div>
       <div className="row p-3 text-center justify-content-center">
         <div className="col-md-4">
-          <GiTeamIdea size={35} color={"#222"} />
+          <GiTeamIdea size={35} color={"white"} />
           <p className="soft-skill-text">Teamwork</p>
         </div>
         <div className="col-md-4">
-          <BsMegaphoneFill size={35} color={"#222"} />
+          <BsMegaphoneFill size={35} color={"white"} />
           <p className="soft-skill-text">Communication</p>
         </div>
       </div>
       <div className="row p-3 text-center justify-content-center">
         <div className="col-md-4">
-          <FaUserTie size={35} color={"#222"} />
+          <FaUserTie size={35} color={"white"} />
           <p className="soft-skill-text">Leadership</p>
         </div>
         <div className="col-md-4">
-          <MdPublishedWithChanges size={35} color={"#222"} />
+          <MdPublishedWithChanges size={35} color={"white"} />
           <p className="soft-skill-text">Adaptability</p>
         </div>
       </div>
       <div className="row p-3 text-center justify-content-center">
         <div className="col-md-4">
-          <MdAccessTimeFilled size={35} color={"#222"} />
+          <MdAccessTimeFilled size={35} color={"white"} />
           <p className="soft-skill-text">Time management</p>
         </div>
         <div className="col-md-4">
-          <CgNotes size={35} color={"#222"} />
+          <CgNotes size={35} color={"white"} />
           <p className="soft-skill-text">Organizational</p>
         </div>
       </div>
       <div className="row p-3 text-center justify-content-center">
         <div className="col-md-4">
-          <TiLightbulb size={35} color={"#222"} />
+          <TiLightbulb size={35} color={"white"} />
           <p className="soft-skill-text">Creativity</p>
         </div>
         <div className="col-md-4">
-          <RiCustomerService2Fill size={35} color={"#222"} />
+          <RiCustomerService2Fill size={35} color={"white"} />
           <p className="soft-skill-text">Customer Service</p>
         </div>
       </div>

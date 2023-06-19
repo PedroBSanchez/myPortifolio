@@ -10,8 +10,8 @@ const NewAbout = () => {
   };
   return (
     <>
-      <div className="row">
-        <div className="col border-neon p-3">
+      <div className="row text-center justify-content-center">
+        <div className="col-10 border-neon p-3">
           <div className="row p-2">
             <div className="col-md-2">
               <img className="about-image" src={image} alt={"Me"} />
