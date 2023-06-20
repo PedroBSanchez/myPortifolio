@@ -18,7 +18,7 @@ const CarrouselExperience = () => {
         "Team manager",
       ],
       empresa: "Mocx - Engineering and industrial automation",
-      periodo: "Jun 2022 - At moment",
+      periodo: "Jun 2022 - Jun 2023",
     },
     {
       image: require("../../assets/pma.jpg"),

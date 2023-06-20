@@ -2,6 +2,7 @@ import React from "react";
 
 import NewProject from "./NewProject";
 import NewProjectCard from "./NewProjectCard";
+import ProjectBook from "./ProjectBook";
 
 import "./Projects.css";
 
@@ -15,145 +16,144 @@ const Projects = () => {
           </h1>
         </div>
       </div>
+
       <div className="row justify-content-evenly">
-        <div className="col-lg-2 col-md-4 m-3">
-          <NewProjectCard
-            projectName={"Catacombs"}
-            image={"catacombs"}
-            description={"2D Endless Game made with Construct2"}
-            repositories={[
-              {
-                repo: "https://upbeat-kalam-5f930c.netlify.app/",
-                type: "Front",
-              },
-            ]}
+        <div className="col col-lg-2 col-md-4 m-3">
+          <ProjectBook
+            title={"Catacombs"}
+            description={"2D Endless Game made with Construct2."}
+            techs={["nodejs", "construct"]}
+            repositories={[]}
             applicationLink={"https://upbeat-kalam-5f930c.netlify.app/"}
-            icons={["construct"]}
           />
         </div>
-        <div className="col-lg-2 col-md-4 m-3">
-          <NewProjectCard
-            projectName={"Clock"}
-            image={"clock"}
-            description={"Project to implements a simple and functional clock"}
+        <div className="col col-lg-2 col-md-4 m-3">
+          <ProjectBook
+            title={"Clock"}
+            description={"Project to implements a simple and functional clock."}
+            techs={["nodejs", "html", "css", "javascript"]}
             repositories={[
-              { repo: "https://github.com/PedroBSanchez/clock", type: "Front" },
+              {
+                link: "https://github.com/PedroBSanchez/clock",
+                type: "Front-end",
+              },
             ]}
             applicationLink={"https://clinquant-chimera-9981c3.netlify.app/"}
-            icons={["html", "css", "javascript"]}
           />
         </div>
-        <div className="col-lg-2 col-md-4 m-3">
-          <NewProjectCard
-            projectName={"Tasklist"}
-            image={"tasklist"}
+        <div className="col col-lg-2 col-md-4 m-3">
+          <ProjectBook
+            title={"Tasklist"}
             description={
-              "Project to implement a task list and checklist with data persistence"
+              "Project to implement a task list and checklist with data persistence."
             }
+            techs={["nodejs", "nodejs", "mongodb", "react"]}
             repositories={[
               {
-                repo: "https://github.com/PedroBSanchez/taskList_api",
-                type: "Back",
+                link: "https://github.com/PedroBSanchez/taskList_api",
+                type: "Back-end",
               },
               {
-                repo: "https://github.com/PedroBSanchez/tasklist",
-                type: "Front",
+                link: "https://github.com/PedroBSanchez/tasklist",
+                type: "Front-end",
               },
             ]}
             applicationLink={"https://beautiful-kangaroo-204bb5.netlify.app/"}
-            icons={["nodejs", "mongodb", "react"]}
           />
         </div>
-        <div className="col-lg-2 col-md-4 m-3">
-          <NewProjectCard
-            projectName={"Person register"}
-            description={
-              "Project to implement a register of people with name, CPF and date of birth - CRUD with data persistence"
-            }
-            image={"personRegister"}
+        <div className="col col-lg-2 col-md-4 m-3">
+          <ProjectBook
+            title={"Person register"}
+            description={"Project to implement a CRUD of people."}
+            techs={["nodejs", "nodejs", "mongodb", "react"]}
             repositories={[
               {
-                repo: "https://github.com/PedroBSanchez/cadastroPessoa",
+                link: "https://github.com/PedroBSanchez/cadastroPessoa",
                 type: "Back/Front",
               },
             ]}
             applicationLink={"https://precious-donut-96b36b.netlify.app/"}
-            icons={["nodejs", "mongodb", "react"]}
           />
         </div>
       </div>
       <div className="row justify-content-evenly">
-        <div className="col-lg-2 col-md-4 m-3">
-          <NewProjectCard
-            projectName={"QRCode"}
-            image={"qrcode"}
-            description={"Project to implement a qrcode scanner and generator"}
+        <div className="col col-lg-2 col-md-4 m-3">
+          <ProjectBook
+            title={"QRCode"}
+            description={"Project to implement a qrcode scanner and generator."}
+            techs={["nodejs", "react"]}
             repositories={[
               {
-                repo: "https://github.com/PedroBSanchez/qrcode",
-                type: "Front",
+                link: "https://github.com/PedroBSanchez/qrcode",
+                type: "Front-end",
               },
             ]}
             applicationLink={"https://luminous-horse-2abde6.netlify.app/"}
-            icons={["react"]}
           />
         </div>
-        <div className="col-lg-2 col-md-4 m-3">
-          <NewProjectCard
-            projectName={"Stock Quoter"}
-            image={"stockquoter"}
+        <div className="col col-lg-2 col-md-4 m-3">
+          <ProjectBook
+            title={"Stock Quoter"}
             description={
-              "Project to implement a stock price viewer with user authentication and option to save favorite stocks"
+              "Project to implement a stock price viewer with user authentication and option to save favorite stocks."
             }
+            techs={["nodejs", "html", "css", "javascript"]}
             repositories={[
               {
-                repo: "https://github.com/PedroBSanchez/stockQuoter",
-                type: "Back",
+                link: "https://github.com/PedroBSanchez/stockQuoter",
+                type: "Back-end",
               },
               {
-                repo: "https://github.com/PedroBSanchez/stockquoterui",
-                type: "Front",
+                link: "https://github.com/PedroBSanchez/stockquoterui",
+                type: "Front-end",
               },
             ]}
-            icons={["nodejs", "mongodb", "react"]}
+            applicationLink={"https://deft-florentine-5c99e7.netlify.app/"}
           />
         </div>
-        <div className="col-lg-2 col-md-4 m-3">
-          <NewProjectCard
-            projectName={"Discord Bot"}
-            image={"discord"}
-            description={
-              "Project to implements a multifunctional discord bot with commands like currency value, stock value and others"
-            }
+        <div className="col col-lg-2 col-md-4 m-3">
+          <ProjectBook
+            title={"Discord Bot"}
+            description={"Project to implements a multifunctional discord bot."}
+            techs={["nodejs", "nodejs", "mongodb", "react"]}
             repositories={[
               {
-                repo: "https://github.com/PedroBSanchez/mafiaboybot",
-                type: "Back",
+                link: "https://github.com/PedroBSanchez/mafiaboybot",
+                type: "Back-end",
               },
             ]}
             applicationLink={
               "https://discord.com/oauth2/authorize?=&client_id=1062868174359511112&scope=bot&permissions=8"
             }
-            icons={["nodejs", "discord"]}
           />
         </div>
-        <div className="col-lg-2 col-md-4 m-3">
-          <NewProjectCard
-            projectName={"Recipe Generator"}
-            image={"discord"}
+        <div className="col-sm-6 col-lg-2 col-md-4 m-3">
+          <ProjectBook
+            title={"Recipe Generator"}
             description={
-              "Project to implements recipe generator to cook any food"
+              "Project to implements recipe generator to cook any food."
             }
+            techs={["nodejs", "react"]}
             repositories={[
               {
-                repo: "https://github.com/PedroBSanchez/recipegenerator",
+                link: "https://github.com/PedroBSanchez/recipegenerator",
                 type: "Repo",
               },
             ]}
             applicationLink={
               "https://pedrobsanchez-recipegenerator.netlify.app/"
             }
-            icons={["react"]}
+          />
+        </div>
+      </div>
+      <div className="row justify-content-center">
+        <div className="col-sm-6 col-lg-2 col-md-4 m-3">
+          <ProjectBook
+            title={"SiteUp"}
+            description={"In progess."}
+            techs={[]}
+            repositories={[]}
+            applicationLink={""}
           />
         </div>
       </div>
