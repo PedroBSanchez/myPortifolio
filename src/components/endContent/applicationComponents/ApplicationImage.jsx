@@ -9,6 +9,9 @@ import stockQuoter from "../../../assets/stockquoter.png";
 import discord from "../../../assets/discord.png";
 import recipeGenerator from "../../../assets/recipeGenerator.png";
 import inProgress from "../../../assets/progress.png";
+import siteUp from "../../../assets/siteup.png";
+import apiDDD from "../../../assets/ddd.png";
+import doofLogo from "../../../assets/doofLogo.png";
 
 import "./ApplicationImage.css";
 
@@ -44,6 +47,18 @@ const ApplicationImage = ({ applicationName }) => {
 
     case "recipe generator":
       appImage = recipeGenerator;
+      break;
+
+    case "siteup":
+      appImage = siteUp;
+      break;
+
+    case "api ddd":
+      appImage = apiDDD;
+      break;
+
+    case "doof":
+      appImage = doofLogo;
       break;
 
     default:

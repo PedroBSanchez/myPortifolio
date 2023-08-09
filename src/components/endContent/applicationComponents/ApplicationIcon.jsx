@@ -8,6 +8,8 @@ import {
   DiJsBadge,
   DiMongodb,
   DiJavascript,
+  DiMsqlServer,
+  DiAngularSimple,
 } from "react-icons/di";
 
 import { SiDotnet } from "react-icons/si";
@@ -42,6 +44,12 @@ const ApplicationIcon = ({ technology, iconSize }) => {
       )}
       {technology === "dotnet" && <SiDotnet size={iconSize} className="icon" />}
       {technology === "docker" && <FaDocker size={iconSize} className="icon" />}
+      {technology === "angular" && (
+        <DiAngularSimple size={iconSize} className="icon" />
+      )}
+      {technology === "sqlserver" && (
+        <DiMsqlServer size={iconSize} className="icon" />
+      )}
     </>
   );
 };

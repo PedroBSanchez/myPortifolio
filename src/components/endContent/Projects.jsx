@@ -97,7 +97,7 @@ const Projects = () => {
             description={
               "Project to implement a stock price viewer with user authentication and option to save favorite stocks."
             }
-            techs={["nodejs", "html", "css", "javascript"]}
+            techs={["nodejs", "nodejs", "react", "mongodb"]}
             repositories={[
               {
                 link: "https://github.com/PedroBSanchez/stockQuoter",
@@ -115,7 +115,7 @@ const Projects = () => {
           <ProjectBook
             title={"Discord Bot"}
             description={"Project to implements a multifunctional discord bot."}
-            techs={["nodejs", "nodejs", "mongodb", "react"]}
+            techs={["nodejs", "nodejs"]}
             repositories={[
               {
                 link: "https://github.com/PedroBSanchez/mafiaboybot",
@@ -146,13 +146,48 @@ const Projects = () => {
           />
         </div>
       </div>
-      <div className="row justify-content-center">
+      <div className="row justify-content-evenly">
         <div className="col-sm-6 col-lg-2 col-md-4 m-3">
           <ProjectBook
             title={"SiteUp"}
-            description={"In progess."}
-            techs={[]}
-            repositories={[]}
+            description={
+              "Siteup is a platform for saving website URLs and checking if they are functioning normally."
+            }
+            techs={["nodejs", "nodejs", "react", "mongodb", "docker"]}
+            repositories={[
+              {
+                link: "https://github.com/PedroBSanchez/siteup_ui",
+                type: "Repo",
+              },
+            ]}
+          />
+        </div>
+        <div className="col-sm-6 col-lg-2 col-md-4 m-3">
+          <ProjectBook
+            title={"API DDD"}
+            description={
+              "APIDDD is a CRUD application designed to apply and understand architectural concepts using the .NET technology."
+            }
+            techs={["nodejs", "dotnet", "angular", "sqlserver", "docker"]}
+            repositories={[
+              {
+                link: "https://github.com/PedroBSanchez/API_DDD",
+                type: "Repo",
+              },
+            ]}
+            applicationLink={""}
+          />
+        </div>
+        <div className="col-sm-6 col-lg-2 col-md-4 m-3">
+          <ProjectBook
+            title={"Doof"}
+            description={
+              "Doof is a platform for snack bar/restaurant owners to manage their menu and orders. Additionally, the platform provides a space for users to place orders."
+            }
+            techs={["nodejs", "nodejs", "react", "mongodb", "docker"]}
+            repositories={[
+              { link: "https://github.com/PedroBSanchez/doof", type: "Repo" },
+            ]}
             applicationLink={""}
           />
         </div>
