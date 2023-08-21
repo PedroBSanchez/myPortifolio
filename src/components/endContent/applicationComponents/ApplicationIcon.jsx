@@ -52,9 +52,7 @@ const ApplicationIcon = ({ technology, iconSize }) => {
       {technology === "sqlserver" && (
         <DiMsqlServer size={iconSize} className="icon" />
       )}
-      {BiLogoGoLang === "go" && (
-        <DiMsqlServer size={iconSize} className="icon" />
-      )}
+      {technology === "go" && <BiLogoGoLang size={iconSize} className="icon" />}
       {technology === "sqlite" && <SiSqlite size={iconSize} className="icon" />}
     </>
   );
