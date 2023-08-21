@@ -18,8 +18,6 @@ import { BsDiscord } from "react-icons/bs";
 
 import { SiConstruct3, SiSqlite } from "react-icons/si";
 
-import { TbBrandGolang } from "react-icons/tb";
-
 import "./ApplicationIcon.css";
 
 const ApplicationIcon = ({ technology, iconSize }) => {
@@ -51,9 +49,7 @@ const ApplicationIcon = ({ technology, iconSize }) => {
       {technology === "sqlserver" && (
         <DiMsqlServer size={iconSize} className="icon" />
       )}
-      {technology === "go" && (
-        <TbBrandGolang size={iconSize} className="icon" />
-      )}
+
       {technology === "sqlite" && <SiSqlite size={iconSize} className="icon" />}
     </>
   );
