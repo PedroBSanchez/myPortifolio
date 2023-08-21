@@ -12,14 +12,13 @@ import {
   DiAngularSimple,
 } from "react-icons/di";
 
-import { BiLogoGoLang } from "react-icons/bi";
-
 import { SiDotnet } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
-
 import { BsDiscord } from "react-icons/bs";
 
 import { SiConstruct3, SiSqlite } from "react-icons/si";
+
+import { TbBrandGolang } from "react-icons/tb";
 
 import "./ApplicationIcon.css";
 
@@ -52,7 +51,9 @@ const ApplicationIcon = ({ technology, iconSize }) => {
       {technology === "sqlserver" && (
         <DiMsqlServer size={iconSize} className="icon" />
       )}
-      {technology === "go" && <BiLogoGoLang size={iconSize} className="icon" />}
+      {technology === "go" && (
+        <TbBrandGolang size={iconSize} className="icon" />
+      )}
       {technology === "sqlite" && <SiSqlite size={iconSize} className="icon" />}
     </>
   );
