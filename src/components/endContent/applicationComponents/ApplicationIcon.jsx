@@ -12,8 +12,10 @@ import {
   DiAngularSimple,
 } from "react-icons/di";
 
+import { BiLogoGoLang } from "react-icons/bi";
+
 import { SiDotnet } from "react-icons/si";
-import { FaDocker, FaGolang } from "react-icons/fa";
+import { FaDocker } from "react-icons/fa";
 
 import { BsDiscord } from "react-icons/bs";
 

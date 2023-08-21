@@ -61,6 +61,7 @@ const Projects = () => {
               },
             ]}
             applicationLink={"https://beautiful-kangaroo-204bb5.netlify.app/"}
+            application={false}
           />
         </div>
         <div className="col col-lg-2 col-md-4 m-3">
@@ -75,6 +76,7 @@ const Projects = () => {
               },
             ]}
             applicationLink={"https://precious-donut-96b36b.netlify.app/"}
+            application={false}
           />
         </div>
       </div>
@@ -87,7 +89,7 @@ const Projects = () => {
             repositories={[
               {
                 link: "https://github.com/PedroBSanchez/qrcode",
-                type: "Front-end",
+                type: "Repo",
               },
             ]}
             applicationLink={"https://luminous-horse-2abde6.netlify.app/"}
@@ -112,6 +114,7 @@ const Projects = () => {
               },
             ]}
             applicationLink={"https://deft-florentine-5c99e7.netlify.app/"}
+            application={false}
           />
         </div>
         <div className="col col-lg-2 col-md-4 m-3">
@@ -128,6 +131,7 @@ const Projects = () => {
             applicationLink={
               "https://discord.com/oauth2/authorize?=&client_id=1062868174359511112&scope=bot&permissions=8"
             }
+            application={false}
           />
         </div>
         <div className="col-sm-6 col-lg-2 col-md-4 m-3">
@@ -146,6 +150,7 @@ const Projects = () => {
             applicationLink={
               "https://pedrobsanchez-recipegenerator.netlify.app/"
             }
+            application={false}
           />
         </div>
       </div>
@@ -163,6 +168,7 @@ const Projects = () => {
                 type: "Repo",
               },
             ]}
+            application={false}
           />
         </div>
         <div className="col-sm-6 col-lg-2 col-md-4 m-3">
@@ -179,6 +185,7 @@ const Projects = () => {
               },
             ]}
             applicationLink={""}
+            application={false}
           />
         </div>
         <div className="col-sm-6 col-lg-2 col-md-4 m-3">
@@ -192,6 +199,7 @@ const Projects = () => {
               { link: "https://github.com/PedroBSanchez/doof", type: "Repo" },
             ]}
             applicationLink={""}
+            application={false}
           />
         </div>
         <div className="col-sm-6 col-lg-2 col-md-4 m-3">
@@ -202,6 +210,7 @@ const Projects = () => {
             repositories={[
               { link: "https://github.com/PedroBSanchez/gojobs", type: "Repo" },
             ]}
+            application={false}
           />
         </div>
       </div>
