@@ -53,11 +53,7 @@ const Projects = () => {
             repositories={[
               {
                 link: "https://github.com/PedroBSanchez/taskList_api",
-                type: "Back-end",
-              },
-              {
-                link: "https://github.com/PedroBSanchez/tasklist",
-                type: "Front-end",
+                type: "Repo",
               },
             ]}
             applicationLink={"https://beautiful-kangaroo-204bb5.netlify.app/"}
