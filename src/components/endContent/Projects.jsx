@@ -25,6 +25,7 @@ const Projects = () => {
             techs={["nodejs", "construct"]}
             repositories={[]}
             applicationLink={"https://upbeat-kalam-5f930c.netlify.app/"}
+            application={true}
           />
         </div>
         <div className="col col-lg-2 col-md-4 m-3">
@@ -39,6 +40,7 @@ const Projects = () => {
               },
             ]}
             applicationLink={"https://clinquant-chimera-9981c3.netlify.app/"}
+            application={true}
           />
         </div>
         <div className="col col-lg-2 col-md-4 m-3">
@@ -89,6 +91,7 @@ const Projects = () => {
               },
             ]}
             applicationLink={"https://luminous-horse-2abde6.netlify.app/"}
+            application={true}
           />
         </div>
         <div className="col col-lg-2 col-md-4 m-3">
@@ -180,7 +183,7 @@ const Projects = () => {
         </div>
         <div className="col-sm-6 col-lg-2 col-md-4 m-3">
           <ProjectBook
-            title={"Doof"}
+            title={"Delivzen"}
             description={
               "Doof is a platform for snack bar/restaurant owners to manage their menu and orders. Additionally, the platform provides a space for users to place orders."
             }
@@ -189,6 +192,16 @@ const Projects = () => {
               { link: "https://github.com/PedroBSanchez/doof", type: "Repo" },
             ]}
             applicationLink={""}
+          />
+        </div>
+        <div className="col-sm-6 col-lg-2 col-md-4 m-3">
+          <ProjectBook
+            title={"GoJobs"}
+            description={"A Golang API for job opportunity management."}
+            techs={["nodejs", "go", "sqlite"]}
+            repositories={[
+              { link: "https://github.com/PedroBSanchez/gojobs", type: "Repo" },
+            ]}
           />
         </div>
       </div>

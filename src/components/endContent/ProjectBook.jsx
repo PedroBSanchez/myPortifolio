@@ -52,16 +52,18 @@ const ProjectBook = (props) => {
               );
             })}
           </div>
-          <div className="row text-center justify-content-center mt-2">
-            <div className="col">
-              <button
-                class="btn btn-success btn-sm"
-                onClick={() => openPage(props.applicationLink)}
-              >
-                Application
-              </button>
+          {props.application && (
+            <div className="row text-center justify-content-center mt-2">
+              <div className="col">
+                <button
+                  class="btn btn-success btn-sm"
+                  onClick={() => openPage(props.applicationLink)}
+                >
+                  Application
+                </button>
+              </div>
             </div>
-          </div>
+          )}
         </div>
         <div class="cover">
           <div className="row text-center justify-content-center mt-4">

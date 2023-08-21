@@ -13,11 +13,11 @@ import {
 } from "react-icons/di";
 
 import { SiDotnet } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
+import { FaDocker, FaGolang } from "react-icons/fa";
 
 import { BsDiscord } from "react-icons/bs";
 
-import { SiConstruct3 } from "react-icons/si";
+import { SiConstruct3, SiSqlite } from "react-icons/si";
 
 import "./ApplicationIcon.css";
 
@@ -50,6 +50,8 @@ const ApplicationIcon = ({ technology, iconSize }) => {
       {technology === "sqlserver" && (
         <DiMsqlServer size={iconSize} className="icon" />
       )}
+      {FaGolang === "go" && <DiMsqlServer size={iconSize} className="icon" />}
+      {technology === "sqlite" && <SiSqlite size={iconSize} className="icon" />}
     </>
   );
 };

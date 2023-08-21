@@ -12,6 +12,7 @@ import inProgress from "../../../assets/progress.png";
 import siteUp from "../../../assets/siteup.png";
 import apiDDD from "../../../assets/ddd.png";
 import doofLogo from "../../../assets/doofLogo.png";
+import gojobs from "../../../assets/gojobs.png";
 
 import "./ApplicationImage.css";
 
@@ -57,8 +58,12 @@ const ApplicationImage = ({ applicationName }) => {
       appImage = apiDDD;
       break;
 
-    case "doof":
+    case "delivzen":
       appImage = doofLogo;
+      break;
+
+    case "gojobs":
+      appImage = gojobs;
       break;
 
     default:
