@@ -206,6 +206,17 @@ const Projects = () => {
           />
         </div>
       </div>
+      <div className="row justify-content-evenly">
+        <div className="col-sm-6 col-lg-2 col-md-4 m-3">
+          <ProjectBook
+            title={"GoBooks"}
+            description={"in progress..."}
+            techs={[]}
+            repositories={[]}
+            application={false}
+          />
+        </div>
+      </div>
     </div>
   );
 };
